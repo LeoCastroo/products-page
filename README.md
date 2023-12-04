@@ -1,0 +1,1 @@
+Projeto voltado para a contrução de uma página front-end que realiza a busca por produtos  
