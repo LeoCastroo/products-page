@@ -1,26 +1,46 @@
 [
     {
         "id": 1,
-        "name": "Book",
+        "name": "CAMISETA MUSIC BOX SS 100 CLUB DISNEY WHITE",
         "price": 10.99,
-        "imageUrl": "/img/book.jpg"
+        "stock": 5,
+        "category": "Camiseta",
+        "brand": "Vans",
+        "description": "Por 100 anos, a paixão da Disney tem sido contar histórias. De uma geração para outra, as histórias da Disney inspiram criadores, influenciam a cultura pop e continuam criando laços entre as pessoas. Este ano, a Vans tem o orgulho de celebrar um século de histórias com os personagens inesquecíveis da Disney que conquistaram os corações do público em todo o mundo, com uma coleção feita especialmente para toda a família.",
+        "characteristics": "Características do produto: • Coleção Disney X Vans; • Confeccionada em tecido 100% algodão; • Gola redonda; • Assinatura da coleção Disney X Vans na altura do peito do lado esquerdo; • Estampas musicais dos personagens Mickey e Pato Donald nas costas.",
+        "imageUrl": "/img/camiseta1.1.jpg"
     },
     {
         "id": 2,
-        "name": "Computer",
+        "name": "TÊNIS AUTHENTIC EMBROIDERED CHECKERBOARD LODEN GREEN",
         "price": 1199,
-        "imageUrl": "/img/computer.jpg"
+        "stock": 5,
+        "category": "Tênis",
+        "brand": "Vans",
+        "description": "Nascido em 1966 em Anaheim, na Califórnia, o Authentic é o estilo tradicional original da Vans. Originalmente conhecido como Vans #44 Deck Shoes, o Authentic se tornou um ícone cult imediato e incorpora a atitude 'Off The Wall' desde então. Construído com um perfil simples com cadarço, o Tênis Authentic Embroidered Checkerboard Loden Green mantém viva a vibe old skool com cabedal em lona resistente na cor verde.",
+        "characteristics": "Características do produto: • Tênis de cano baixo original Vans; • Fechamento com cadarço; • Cabedal resistente em lona; • Ilhós de metal; • Estampa exclusiva e irreverente em checkerboard na parte traseira do tênis; • Sola de borracha waffle exclusiva Vans.",
+        "imageUrl": "/img/tenis1.jpg"
     },
     {
         "id": 3,
-        "name": "Banana",
+        "name": "JAQUETA HICKORY STRIPE DRILL CHORE TREND EMBROIDERED NATURAL",
         "price": 1.05,
-        "imageUrl": "/img/banana.jpg"
+        "stock": 5,
+        "category": "Jaqueta",
+        "brand": "Vans",
+        "description": "Fundada na Califórnia em 1966, a Vans está envolvida com a cultura de rua, artes, música e ligada ao skate e à evolução do esporte, sem perder a essência. Dos clássicos aos modernos, a Vans possui uma enorme variedade de modelos de tênis, roupas e acessórios, sempre mantendo o estilo 'Off The Wall'. A Jaqueta Hickory Stripe Drill Chore Trend Embroidered Natural possui um visual clean minimalista. Com detalhe em listras de fio tinto, o fechamento da jaqueta é frontal por botões. Com dois bolsos inferiores, traz aplicação de patch bordado com assinatura Vans altura do peito, no lado esquerdo.",
+        "characteristics": "Características do produto: • Jaqueta confeccionada em tecido 100% algodão; • Silhueta Drill Chore; • Caimento reto; • Modelo veste tamanho M.",
+        "imageUrl": "/img/jaqueta1.jpg"
     },
     {
         "id": 4,
-        "name": "Car",
+        "name": "TÊNIS SK8-LOW BLACK TRUE WHITE",
         "price": 14000,
-        "imageUrl": "/img/car.jpg"
+        "stock": 5,
+        "category": "Tênis",
+        "brand": "Vans",
+        "description": "O Sk8-Low, uma versão do lendário tênis de cano alto da Vans, é produzido com uma variedade de cores clássicas, trazendo a estética Sk8-Hi® em um tênis de cano baixo. Com cabedal durável de lona e camurça resistentes, o Tênis Sk8-Low Black True White possui a contraparte mais alta. O tênis com sidestripe lendária com fecho em cadarços também inclui biqueiras reforçadas, colarinhos acolchoados de suporte e sola de borracha waffle exclusiva Vans.",
+        "characteristics": "Características do produto: • A lendária estética SK8-Hi® da Vans em um tênis de cano baixo; • Cabedal durável de camurça e lona; • Fechamento com cadarço; • Biqueiras reforçadas; • Colarinhos de suporte acolchoados; • Sola de borracha waffle exclusiva Vans.",
+        "imageUrl": "/img/tenis2.jpg"
     }
 ]
