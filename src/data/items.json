@@ -42,5 +42,16 @@
         "description": "O Sk8-Low, uma versão do lendário tênis de cano alto da Vans, é produzido com uma variedade de cores clássicas, trazendo a estética Sk8-Hi® em um tênis de cano baixo. Com cabedal durável de lona e camurça resistentes, o Tênis Sk8-Low Black True White possui a contraparte mais alta. O tênis com sidestripe lendária com fecho em cadarços também inclui biqueiras reforçadas, colarinhos acolchoados de suporte e sola de borracha waffle exclusiva Vans.",
         "characteristics": "Características do produto: • A lendária estética SK8-Hi® da Vans em um tênis de cano baixo; • Cabedal durável de camurça e lona; • Fechamento com cadarço; • Biqueiras reforçadas; • Colarinhos de suporte acolchoados; • Sola de borracha waffle exclusiva Vans.",
         "imageUrl": "/img/tenis2.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Tênis Nike Free Metcon 5 Masculino",
+        "price": 14000,
+        "stock": 5,
+        "category": "Tênis",
+        "brand": "Nike",
+        "description": "Quando seus treinos chegam ao âmago da questão, o Nike Free Metcon 5 pode encontrá-lo nas profundezas, ajudá-lo a cavar fundo para encontrar aquela gota final de força e sair do outro lado em alta.",
+        "characteristics": "Presilha moldada no calcanhar oferece suporte. Ilhós oferecem contenção dinâmica. O piso de borracha em áreas de alto desgaste garante tração durável.",
+        "imageUrl": "/img/tenis3.jpg"
     }
 ]
