@@ -56,6 +56,14 @@ const Store: React.FC<StoreProps> = () => {
     return (
         <Row>
             <Col md={3} className="mb-3">
+                <Form className="mb-3">
+                    <Form.Control
+                        type="text"
+                        placeholder="Buscar por nome"
+                        value={searchTerm}
+                        onChange={(e: React.ChangeEvent<HTMLInputElement>) => setSearchTerm(e.target.value)}
+                    />
+                </Form>
                 <CategoryFilter
                     distinctCategories={distinctCategories}
                     selectedCategories={selectedCategories}
@@ -68,15 +76,7 @@ const Store: React.FC<StoreProps> = () => {
                 />
             </Col>
             <Col md={9}>
-                <h1>Loja</h1>
-                <Form className="mb-3">
-                    <Form.Control
-                        type="text"
-                        placeholder="Buscar por nome"
-                        value={searchTerm}
-                        onChange={(e: React.ChangeEvent<HTMLInputElement>) => setSearchTerm(e.target.value)}
-                    />
-                </Form>
+                <h1>Aproveite as melhores promoções</h1>
                 <StoreItemList
                     filteredItems={filteredItems}
                     onItemClick={handleItemClick}

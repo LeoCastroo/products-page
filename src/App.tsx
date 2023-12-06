@@ -1,4 +1,3 @@
-// App.tsx
 import { Routes, Route } from "react-router-dom"
 import { Container } from "react-bootstrap"
 import Store from "./pages/Store"
@@ -15,7 +14,6 @@ function App() {
         <Routes>
           <Route path="/" element={<Store />} />
           <Route path="/about" element={<About />} />
-          {/* Use :id in the path to capture the item ID from the URL */}
           <Route path="/product/:id" element={<ProductsDetails />} />
         </Routes>
       </Container>

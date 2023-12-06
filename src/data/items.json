@@ -2,56 +2,94 @@
     {
         "id": 1,
         "name": "CAMISETA MUSIC BOX SS 100 CLUB DISNEY WHITE",
-        "price": 10.99,
+        "price": 109.99,
         "stock": 5,
         "category": "Camiseta",
         "brand": "Vans",
+        "resume": "Há 100 anos, a Disney encanta com suas histórias. A Vans celebra esse legado com uma coleção especial para toda a família, homenageando personagens queridos.",
         "description": "Por 100 anos, a paixão da Disney tem sido contar histórias. De uma geração para outra, as histórias da Disney inspiram criadores, influenciam a cultura pop e continuam criando laços entre as pessoas. Este ano, a Vans tem o orgulho de celebrar um século de histórias com os personagens inesquecíveis da Disney que conquistaram os corações do público em todo o mundo, com uma coleção feita especialmente para toda a família.",
         "characteristics": "Características do produto: • Coleção Disney X Vans; • Confeccionada em tecido 100% algodão; • Gola redonda; • Assinatura da coleção Disney X Vans na altura do peito do lado esquerdo; • Estampas musicais dos personagens Mickey e Pato Donald nas costas.",
-        "imageUrl": "/img/camiseta1.1.jpg"
+        "imagesUrl": [
+            "/img/camiseta1.jpg",
+            "/img/camiseta1.1.jpg"
+        ]
     },
     {
         "id": 2,
         "name": "TÊNIS AUTHENTIC EMBROIDERED CHECKERBOARD LODEN GREEN",
-        "price": 1199,
+        "price": 350.00,
         "stock": 5,
         "category": "Tênis",
         "brand": "Vans",
+        "resume": "Lançado em 1966, o Tênis Authentic Checkerboard representa o estilo autêntico da Vans, com design icônico e atitude 'Off The Wall'. Em lona verde resistente.",
         "description": "Nascido em 1966 em Anaheim, na Califórnia, o Authentic é o estilo tradicional original da Vans. Originalmente conhecido como Vans #44 Deck Shoes, o Authentic se tornou um ícone cult imediato e incorpora a atitude 'Off The Wall' desde então. Construído com um perfil simples com cadarço, o Tênis Authentic Embroidered Checkerboard Loden Green mantém viva a vibe old skool com cabedal em lona resistente na cor verde.",
         "characteristics": "Características do produto: • Tênis de cano baixo original Vans; • Fechamento com cadarço; • Cabedal resistente em lona; • Ilhós de metal; • Estampa exclusiva e irreverente em checkerboard na parte traseira do tênis; • Sola de borracha waffle exclusiva Vans.",
-        "imageUrl": "/img/tenis1.jpg"
+        "imagesUrl": [
+            "/img/tenis1.jpg",
+            "/img/tenis1.2.jpg",
+            "/img/tenis1.3.jpg"
+        ]
     },
     {
         "id": 3,
         "name": "JAQUETA HICKORY STRIPE DRILL CHORE TREND EMBROIDERED NATURAL",
-        "price": 1.05,
-        "stock": 5,
+        "price": 210.00,
+        "stock": 0,
         "category": "Jaqueta",
         "brand": "Vans",
+        "resume": "Fundada em 1966, a Vans é ícone cultural ligado ao skate. A Jaqueta Hickory Stripe Drill Embroidered combina estilo minimalista com detalhes exclusivos.",
         "description": "Fundada na Califórnia em 1966, a Vans está envolvida com a cultura de rua, artes, música e ligada ao skate e à evolução do esporte, sem perder a essência. Dos clássicos aos modernos, a Vans possui uma enorme variedade de modelos de tênis, roupas e acessórios, sempre mantendo o estilo 'Off The Wall'. A Jaqueta Hickory Stripe Drill Chore Trend Embroidered Natural possui um visual clean minimalista. Com detalhe em listras de fio tinto, o fechamento da jaqueta é frontal por botões. Com dois bolsos inferiores, traz aplicação de patch bordado com assinatura Vans altura do peito, no lado esquerdo.",
         "characteristics": "Características do produto: • Jaqueta confeccionada em tecido 100% algodão; • Silhueta Drill Chore; • Caimento reto; • Modelo veste tamanho M.",
-        "imageUrl": "/img/jaqueta1.jpg"
+        "imagesUrl": [
+            "/img/jaqueta1.jpg",
+            "/img/jaqueta1.2.jpg"
+        ]
     },
     {
         "id": 4,
         "name": "TÊNIS SK8-LOW BLACK TRUE WHITE",
-        "price": 14000,
+        "price": 350.25,
         "stock": 5,
         "category": "Tênis",
         "brand": "Vans",
+        "resume": "Sk8-Low Black True White: O clássico da Vans em versão cano baixo, durabilidade e estilo unidos na sola waffle exclusiva.",
         "description": "O Sk8-Low, uma versão do lendário tênis de cano alto da Vans, é produzido com uma variedade de cores clássicas, trazendo a estética Sk8-Hi® em um tênis de cano baixo. Com cabedal durável de lona e camurça resistentes, o Tênis Sk8-Low Black True White possui a contraparte mais alta. O tênis com sidestripe lendária com fecho em cadarços também inclui biqueiras reforçadas, colarinhos acolchoados de suporte e sola de borracha waffle exclusiva Vans.",
         "characteristics": "Características do produto: • A lendária estética SK8-Hi® da Vans em um tênis de cano baixo; • Cabedal durável de camurça e lona; • Fechamento com cadarço; • Biqueiras reforçadas; • Colarinhos de suporte acolchoados; • Sola de borracha waffle exclusiva Vans.",
-        "imageUrl": "/img/tenis2.jpg"
+        "imagesUrl": [
+            "/img/tenis2.jpg",
+            "/img/tenis2.1.jpg"
+        ]
     },
     {
         "id": 5,
-        "name": "Tênis Nike Free Metcon 5 Masculino",
-        "price": 14000,
+        "name": "TÊNIS NIKE FREE METCON 5 MASCULINO",
+        "price": 500.50,
         "stock": 5,
         "category": "Tênis",
         "brand": "Nike",
-        "description": "Quando seus treinos chegam ao âmago da questão, o Nike Free Metcon 5 pode encontrá-lo nas profundezas, ajudá-lo a cavar fundo para encontrar aquela gota final de força e sair do outro lado em alta.",
+        "resume": "Para treinos intensos, o Nike Free Metcon 5 oferece estilo, flexibilidade e estabilidade. Seu design facilita o calce, proporcionando suporte durante o cardio e aprimorando a agilidade.",
+        "description": "Quando seus treinos chegam ao âmago da questão, o Nike Free Metcon 5 pode encontrá-lo nas profundezas, ajudá-lo a cavar fundo para encontrar aquela gota final de força e sair do outro lado em alta. Ele combina estilo com substância, flexibilidade do antepé com estabilidade de backend, perfeito para voar durante um dia de cardio ou melhorar sua agilidade. Um cabedal renovado facilita na hora de calçar com um colarinho feito para o seu tornozelo.",
         "characteristics": "Presilha moldada no calcanhar oferece suporte. Ilhós oferecem contenção dinâmica. O piso de borracha em áreas de alto desgaste garante tração durável.",
-        "imageUrl": "/img/tenis3.jpg"
+        "imagesUrl": [
+            "/img/tenis3.jpg",
+            "/img/tenis3.1.jpg",
+            "/img/tenis3.2.jpg"
+        ]
+    },
+    {
+        "id": 6,
+        "name": "TÊNIS SOLARGLIDE 6",
+        "price": 549.50,
+        "stock": 8,
+        "category": "Tênis",
+        "brand": "Adidas",
+        "resume": "Há tênis e há o seu tênis de corrida diário. O SOLARGLIDE 6 impulsiona cada passada com tecnologia BOOST e orientação precisa. O solado Continental™ garante tração excepcional.",
+        "description": "Há tênis e tênis para correr. E aí está seu tênis de corrida. O SOLARGLIDE 6 é aquele que você calça todos os dias com objetivos em mente, como aumentar a distância ou buscar um recorde pessoal. Ela tem a tecnologia que você precisa para ir mais longe e mais rápido, incluindo a sensação responsiva do amortecimento BOOST. O adidas LEP 2.0 orienta cada passada para impulsionar você para frente, e o solado de borracha Continental™ oferece tração extraordinária em pisos secos e molhados.",
+        "characteristics": "Feito com uma série de materiais reciclados, o cabedal contém pelo menos 50% de conteúdo reaproveitado. Este produto representa apenas uma das nossas soluções para ajudar a acabar com os resíduos plásticos.",
+        "imagesUrl": [
+            "/img/tenis4.jpg",
+            "/img/tenis4.1.jpg",
+            "/img/tenis4.2.jpg"
+        ]
     }
 ]
