@@ -25,7 +25,7 @@ export function StoreItem(item: StoreItemType) {
                     </span>
                 </Card.Title>
                 <Card.Text>
-                    {item.price}
+                    {item.description}
                 </Card.Text>
                 <div className="mt-auto">
                     {quantity === 0 ? (
