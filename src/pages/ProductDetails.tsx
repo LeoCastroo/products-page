@@ -61,7 +61,7 @@ const ProductDetails: React.FC<ProductDetailsProps> = () => {
                     </Card>
                     <div className="mt-3 d-flex align-items-center justify-content-center">
                         {((quantity - item.stock) == 0 && quantity === 0) ?
-                            (<Button variant="secondary" className="w-100" disabled>Indisponível{item.stock}{quantity}</Button>)
+                            (<Button variant="secondary" className="w-100" disabled>Indisponível</Button>)
                             :
                             quantity === 0 ? (
                                 <Button variant="primary" size="lg" onClick={() => increaseItemQuantity(item.id)}>

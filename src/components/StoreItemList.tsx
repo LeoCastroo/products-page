@@ -14,7 +14,7 @@ const StoreItemList: React.FC<StoreItemListProps> = ({ filteredItems, onItemClic
   return (
     <Row xs={1} lg={3} className="g-3">
       {filteredItems.map((item: StoreItemType) => (
-        <Col key={item.id}  onClick={() => onItemClick(item)} >
+        <Col key={item.id} style={{ cursor: "pointer" }} onClick={() => onItemClick(item)} >
           <StoreItem {...item} />
         </Col>
       ))}
