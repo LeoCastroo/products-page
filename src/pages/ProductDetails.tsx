@@ -60,27 +60,29 @@ const ProductDetails: React.FC<ProductDetailsProps> = () => {
                         </ListGroup>
                     </Card>
                     <div className="mt-3 d-flex align-items-center justify-content-center">
-                        {quantity === 0 ? (
-                            <Button variant="primary" size="lg" onClick={() => increaseItemQuantity(item.id)}>
-                                Comprar
-                            </Button>
-                        ) : ((quantity - item.stock) < 0 && quantity === 0) ?
-                            (<Button variant="secondary" className="w-100" disabled>Indisponível</Button>)
-                            : (
-                                <div className="d-flex align-items-center flex-row" style={{ gap: ".5rem" }}>
-                                    <Button onClick={() => decreaseItemQuantity(item.id)} size="lg">-</Button>
-                                    <div>
-                                        <span className="fs-3">{quantity}</span> no carrinho
+                        {((quantity - item.stock) == 0 && quantity === 0) ?
+                            (<Button variant="secondary" className="w-100" disabled>Indisponível{item.stock}{quantity}</Button>)
+                            :
+                            quantity === 0 ? (
+                                <Button variant="primary" size="lg" onClick={() => increaseItemQuantity(item.id)}>
+                                    Comprar
+                                </Button>
+                            )
+                                : (
+                                    <div className="d-flex align-items-center flex-row" style={{ gap: ".5rem" }}>
+                                        <Button onClick={() => decreaseItemQuantity(item.id)} size="lg">-</Button>
+                                        <div>
+                                            <span className="fs-3">{quantity}</span> no carrinho
+                                        </div>
+                                        {quantity - item.stock != 0 &&
+                                            <Button onClick={() => increaseItemQuantity(item.id)} size="lg">+</Button>
+                                        }
+                                        <div className="d-flex align-items-center flex-column" style={{ gap: ".5rem" }}></div>
+                                        <Button onClick={() => removeFromCart(item.id)} variant="danger" size="sm">
+                                            Apagar
+                                        </Button>
                                     </div>
-                                    {quantity - item.stock != 0 &&
-                                        <Button onClick={() => increaseItemQuantity(item.id)} size="lg">+</Button>
-                                    }
-                                    <div className="d-flex align-items-center flex-column" style={{ gap: ".5rem" }}></div>
-                                    <Button onClick={() => removeFromCart(item.id)} variant="danger" size="sm">
-                                        Apagar
-                                    </Button>
-                                </div>
-                            )}
+                                )}
                     </div>
 
                 </Col>
