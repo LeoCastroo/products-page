@@ -1,3 +1,4 @@
+// App.tsx
 import { Routes, Route } from "react-router-dom"
 import { Container } from "react-bootstrap"
 import Home from "./pages/Home"
@@ -16,11 +17,12 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/store" element={<Store />} />
           <Route path="/about" element={<About />} />
-          <Route path="/details" element={<ProductsDetails />} />
+          {/* Use :id in the path to capture the item ID from the URL */}
+          <Route path="/product/:id" element={<ProductsDetails />} />
         </Routes>
       </Container>
     </ShoppingCartProvider>
-  )
+  );
 }
 
-export default App
+export default App;

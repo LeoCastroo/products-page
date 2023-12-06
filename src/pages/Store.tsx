@@ -1,15 +1,19 @@
-// Store.tsx
+//Store.tsx
 import React, { useState } from "react";
-import { Row, Col, Form } from "react-bootstrap";
-import storeItems from "../data/items.json";
-import CategoryFilter from "../components/filters/CategoryFilter";
+import { Col, Form, Row } from "react-bootstrap";
+import { useNavigate } from "react-router-dom";
 import StoreItemList from "../components/StoreItemList";
-import { StoreItemType } from "../types/StoreItemType";
 import BrandFilter from "../components/filters/BrandFilter";
+import CategoryFilter from "../components/filters/CategoryFilter";
+import storeItems from "../data/items.json";
+import { StoreItemType } from "../types/StoreItemType";
 
 interface StoreProps { }
 
 const Store: React.FC<StoreProps> = () => {
+
+    const navigate = useNavigate();
+
     const [searchTerm, setSearchTerm] = useState<string>("");
     const [selectedCategories, setSelectedCategories] = useState<string[]>([]);
     const [selectedBrands, setSelectedBrands] = useState<string[]>([]);
@@ -45,6 +49,10 @@ const Store: React.FC<StoreProps> = () => {
         setSelectedBrands(newSelectedBrands);
     };
 
+    const handleItemClick = (item: StoreItemType): void => {
+        navigate(`/product/${item.id}`);
+    };
+
     return (
         <Row>
             <Col md={3} className="mb-3">
@@ -69,7 +77,10 @@ const Store: React.FC<StoreProps> = () => {
                         onChange={(e: React.ChangeEvent<HTMLInputElement>) => setSearchTerm(e.target.value)}
                     />
                 </Form>
-                <StoreItemList filteredItems={filteredItems} />
+                <StoreItemList
+                    filteredItems={filteredItems}
+                    onItemClick={handleItemClick}
+                />
             </Col>
         </Row>
     );
